@@ -1,33 +1,37 @@
+/* Body initalization */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Paragraph and smaller paragraph */
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
-
-.small-para {
+/* Smaller Paragraph */
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
+/* Paragrah parent */
 .para {
   font-size: 22px;
 }
 
-.confirm {
+/* Confirming button */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
+#cancel-button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
+
 
 .child {
   color: rgb(0, 0, 0);
@@ -35,7 +39,8 @@ body {
   font-size: 14px;
 }
 
-div.text {
+/* Last piece */
+.text.child {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;

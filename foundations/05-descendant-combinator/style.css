@@ -1,0 +1,8 @@
+
+/* When doing descendants it is the class with a space then the descendant class */
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
